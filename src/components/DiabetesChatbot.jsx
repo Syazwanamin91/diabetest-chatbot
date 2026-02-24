@@ -112,7 +112,7 @@ export default function DiabetesChatbot() {
           </div>
           <div>
             <h1 className="text-xl font-bold text-slate-800">Diabetes Care AI</h1>
-            <p className="text-xs text-slate-500 font-medium">RAG Powered • Gemini 2.0 Flash</p>
+            <p className="text-xs text-slate-500 font-medium">RAG Powered • Gemini 2.5 Flash</p>
           </div>
         </div>
         <button 
