@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import axios from 'axios';
 import { Send, Bot, User, Loader2, Info, RefreshCw, Sparkles } from 'lucide-react';
 
-const API_BASE_URL = "http://127.0.0.1:8000";
+const API_BASE_URL = "http://localhost:8000";
 
 export default function DiabetesChatbot() {
   const [input, setInput] = useState('');
@@ -112,7 +112,7 @@ export default function DiabetesChatbot() {
           </div>
           <div>
             <h1 className="text-xl font-bold text-slate-800">Diabetes Care AI</h1>
-            <p className="text-xs text-slate-500 font-medium">RAG Powered • Gemini 2.5 Flash</p>
+            <p className="text-xs text-slate-500 font-medium">RAG Powered • Gemini 3.1 Flash Lite</p>
           </div>
         </div>
         <button 
